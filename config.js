@@ -1,7 +1,7 @@
 // WebSocket 連線設定
 const CONFIG = {
   // 本地開發時使用 localhost，部署時改成你的伺服器 IP 或網域
-  WS_HOST: window.location.hostname === 'localhost' ? 'localhost' : '你的伺服器IP或網域',
+  WS_HOST: window.location.hostname === 'localhost' ? 'localhost' : '192.168.1.101',
   WS_PORT: 8765,
   
   // 音效設定
